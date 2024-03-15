@@ -56898,6 +56898,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: UtilityMonitor
       objectReference: {fileID: 0}
+    - target: {fileID: 6080019000752956430, guid: f96da95953969924f94e3b31530c8c8b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6196006663684240892, guid: f96da95953969924f94e3b31530c8c8b,
+        type: 3}
+      propertyPath: baseline
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 6303097167693883058, guid: f96da95953969924f94e3b31530c8c8b,
         type: 3}
       propertyPath: m_Pivot.x

@@ -171,7 +171,7 @@ public class HistorianGraph : MonoBehaviour {
 				reader.Close ();
 			}
 			catch (SqlException exception) {
-				if (debug) {Debug.LogWarning(exception.ToString());}
+				if (debug) {Debug.LogWarning(exception.ToString()); Debug.LogWarning(query);}
 			}
 		}
 		SqlJobManager.Instance.EndJob ();
