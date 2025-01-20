@@ -59695,7 +59695,7 @@ MonoBehaviour:
     @Opt11 VarChar (20) = '''';
 
 
-    select [State].[Equipment] + case when [State].[StateID]
+    select ''Line 6 Pasteurizer'' + case when [State].[StateID]
     = 2 then isNull ('': '' + [State].[Mode],'''') + isNull('': '' + [IM].[Description],'''')
     else '': '' + [State].[State] end [Text] from [FairlifePostProcessed].[dbo].[Equipment_State]
     [State] left join [FairlifeMaster].[dbo].[ItemMaster] [IM] on [IM].[ItemNum]
